@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dynamic Anime Story Generator</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌸 Dynamic Anime Story Generator 🌌</h1>
+
+    <div class="mood-select">
+      <h2>Select a Mood / Theme</h2>
+      <div class="buttons">
+        <button data-mood="happy">😊 Happy</button>
+        <button data-mood="dark">🌑 Dark</button>
+        <button data-mood="fantasy">🧙‍♂️ Fantasy</button>
+        <button data-mood="scifi">🚀 Sci-Fi</button>
+        <button data-mood="mystery">🕵️‍♂️ Mystery</button>
+      </div>
+    </div>
+
+    <div class="story-box" id="storyBox">
+      <p id="storyText">Choose a mood to create your anime story...</p>
+    </div>
+  </div>
+
+  <canvas id="animeCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
